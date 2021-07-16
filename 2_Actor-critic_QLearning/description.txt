@@ -1,1 +1,6 @@
-
+Initially, we setup an gradient policy for the agent to choose an action
+Our gradient policy will try to calculate the rewards for the action chosen.
+The rewards are estimated as +1(right direction),-1(wrong direction),-10(obstacles),+20(destination).
+So for each state we try to predict the rewards.
+We use these values as a reference to fillup the Q-table.
+Using the bellman equation, we fill in the values for Q-table using which we find the shortest path to the empty parking slots.
