@@ -5,3 +5,5 @@ Next we setup a actor-critic policy for our agent to choose an action.
 Using the actions, our system will try to find the rewards for each state.
 We use these rewards to fillup the Q-table.
 Using this Q-table we find the shortest path to the next available empty parking spots
+
+Tools: Python libraries,Opencv
