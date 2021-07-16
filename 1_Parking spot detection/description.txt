@@ -1,0 +1,6 @@
+Firstly,we have to identify the empty parking spots to train our agent. 
+For this, we first find the required area using opencv.
+Then we find the contours using edge,canny detection.
+Then we do the hough line transform to find the lanes available.From this we find the parking spots.
+Using this spots,we find the occupied and unoccupied spots. 
+We store this into a csv file, for later part of the execution.
