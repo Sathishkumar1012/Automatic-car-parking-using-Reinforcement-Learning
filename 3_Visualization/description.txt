@@ -1,1 +1,2 @@
-
+In this part,we visualize how the agent works.
+Using the empty.csv,parking_slots.csv files we found using opencv, we try to run our agent.
